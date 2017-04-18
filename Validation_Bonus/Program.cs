@@ -17,9 +17,7 @@ namespace Validation_Bonus
             Console.Write("Please enter a value: ");
             string Prompt = Console.ReadLine();
 
-            int value = GetInt();
-
-            Console.WriteLine(value);
+           
             
         }
 
@@ -60,16 +58,26 @@ namespace Validation_Bonus
 
             Random rnd = new Random();
             int num = rnd.Next(Min, Max);
-
-            while (!Int32.TryParse(Console.ReadLine(), out value))
+            while (true)
             {
+                if (!Int32.TryParse(Console.ReadLine(), out value))
                 {
-                    Console.WriteLine("\n");
-                    Console.Write(Prompt);
+                    {
+                        Console.WriteLine("\n");
+                        Console.Write("Please enter a valid input:");
+                    }
                 }
+                if (num < Min || num > Max)
+                {
+                    {
+                        Console.WriteLine("\n");
+                        Console.Write("Please enter a valid input:");
+                        continue;
+                    }
 
+                }
+                return value;
             }
-            return value;
         }
 
 
@@ -94,20 +102,31 @@ namespace Validation_Bonus
         /* This method will return a valid integer that is within a certain range(min and max). This method also takes a string prompt that is used to ask the user for an integer.*/
         public static double GetDoubleWithinRange(string Prompt, int Min, int Max)
         {
-            Double dblvalue;
+            double value;
 
             Random rnd = new Random();
-            int num = rnd.Next(Min, Max);
+            double num = rnd.Next(Min, Max);
 
-            while (!Double.TryParse(Console.ReadLine(), out dblvalue))
+            while (true)
             {
+                if (!Double.TryParse(Console.ReadLine(), out value))
                 {
-                    Console.WriteLine("\n");
-                    Console.Write(Prompt);
+                    {
+                        Console.WriteLine("\n");
+                        Console.Write("Please enter a valid input:");
+                    }
                 }
+                if (num < Min || num > Max)
+                {
+                    {
+                        Console.WriteLine("\n");
+                        Console.Write("Please enter a valid input:");
+                        continue;
+                    }
 
+                }
+                return value;
             }
-            return dblvalue;
         }
 
 
