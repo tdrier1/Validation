@@ -1,0 +1,6 @@
+C:\Users\tdrie\Documents\Visual Studio 2015\Projects\Validation_Bonus\Validation_Bonus\bin\Debug\Validation_Bonus.exe.config
+C:\Users\tdrie\Documents\Visual Studio 2015\Projects\Validation_Bonus\Validation_Bonus\obj\Debug\Validation_Bonus.csprojResolveAssemblyReference.cache
+C:\Users\tdrie\Documents\Visual Studio 2015\Projects\Validation_Bonus\Validation_Bonus\bin\Debug\Validation_Bonus.exe
+C:\Users\tdrie\Documents\Visual Studio 2015\Projects\Validation_Bonus\Validation_Bonus\bin\Debug\Validation_Bonus.pdb
+C:\Users\tdrie\Documents\Visual Studio 2015\Projects\Validation_Bonus\Validation_Bonus\obj\Debug\Validation_Bonus.exe
+C:\Users\tdrie\Documents\Visual Studio 2015\Projects\Validation_Bonus\Validation_Bonus\obj\Debug\Validation_Bonus.pdb
